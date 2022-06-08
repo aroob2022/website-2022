@@ -1,0 +1,235 @@
+body{
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+
+}
+
+
+#title {
+  background-color: #2A2550;
+  color: #fff;
+  text-align: left;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+
+.container-fluid{
+  padding:7% 15%;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lobster Two', cursive;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Headings  */
+.big-heading{
+  font-family: 'Lobster Two', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+
+
+.nav-item {
+  padding:0 18px;
+}
+
+
+.navbar-brand{
+  font-family: 'Lobster Two', cursive;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.nav-link{
+  font-size: 1.5rem;
+  font-family: 'Lobster Two', cursive;
+}
+
+/* Download Buttons */
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+/* `Title image`*/
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 30%;
+}
+.press-logo{
+
+}
+
+/* Features section*/
+
+#features {
+  padding:7% 15%;
+  background-color: #D9D7F1;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding:4.5%
+
+}
+
+.icon {
+  color: A267AC;
+  margin-bottom: 1rem;
+}
+
+.icon-hover {
+  color: #ff4c68;
+}
+
+/* Testimonials*/
+
+#testimonials {
+  background-color: #2A2550;
+  color: #fff;
+  text-align: center;
+
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%
+  border-radius: 100%
+  margin: 20px
+
+}
+
+.testimonial-image {
+}
+
+
+/* 
+#press {
+  background-color: #2A2550;
+  padding-bottom: 15%;
+  
+} */
+
+
+.flexbox{
+  position: relative;
+  display: flex;  
+  justify-content: center;
+  
+
+}
+.container{
+  background-color: #2A2550;  
+  text-align: center;
+  position: relative;
+  text-align: center;
+  max-width: 100%;
+  width: 100%;  
+}
+
+
+.press-logo1 {
+  width: 350px;
+  padding: 25px;
+  
+  
+}
+
+.press-logo2 {
+  width: 350px;
+  padding: 25px;
+  flex-wrap:wrap;
+  
+}
+
+.press-logo3 {
+  width: 350px;
+  
+  padding: 25px;
+  
+}
+
+
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+  background-color: #D9D7F1;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding:3% 2%;
+}
+
+/* CTA section */
+
+#cta {
+  background-color: #2A2550;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: 'Lobster Two', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+/* Footer section */
+
+#footer {
+  padding: 7% 15%;
+  background-color: #D9D7F1;
+  text-align: center;
+  position: fixed:
+
+
+}
+
+.social-icon {
+  margin: 20px 10px;
+  background-color: #D9D7F1;
+}
+
+
+@media (max-width 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
